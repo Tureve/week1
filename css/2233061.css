@@ -9,6 +9,8 @@ body {
     text-align: center;
 }
 
+
+
 /* 자기 소개 */
 .introduction {
     height: 400px;
@@ -17,6 +19,8 @@ body {
 mark {
     background-color: aqua;
 }
+
+
 
 /* 목차 */
 .index mark {
@@ -42,6 +46,8 @@ mark {
     color: aliceblue;
 }
 
+
+
 /* 운영진 */
 .mentor table {
     text-align: center;
@@ -55,10 +61,36 @@ mark {
     background-color: pink;
 }
 
+
+
 /* 팀원  */
+.group table {
+    text-align: center;
+    border-collapse: collapse;
+
+}
+
+.group td {
+    width: 100px;
+    height: 50px;
+    border: 3px solid blue;
+}
+
+.tr_bg {
+    background-color: pink;
+}
 
 
 /* 링크 이동 */
+.hyperlink a {
+    text-decoration: none;
+}
+
+.hyperlink a:hover {
+    text-decoration: underline;
+    color: skyblue;
+    background-color: darkblue;
+}
 
 
 /* 소사캠퍼스 */
